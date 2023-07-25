@@ -18,6 +18,8 @@ type PlaylistInfo struct {
 
 type TrackInfo struct {
 	AlbumName        string `json:"albumName"`
+	AlbumURL         string `json:"albumUrl"`
+	ArtistURL        string `json:"artistUrl"`
 	ArtistArtworkURL string `json:"artistArtworkUrl"`
 	PreviewURL       string `json:"previewUrl"`
 	IsPreview        bool   `json:"isPreview"`
