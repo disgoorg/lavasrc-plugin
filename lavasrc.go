@@ -10,10 +10,11 @@ const (
 )
 
 type PlaylistInfo struct {
-	Type       PlaylistType `json:"type"`
-	URL        string       `json:"url"`
-	ArtworkURL string       `json:"artworkUrl"`
-	Author     string       `json:"author"`
+	Type        PlaylistType `json:"type"`
+	URL         string       `json:"url"`
+	ArtworkURL  string       `json:"artworkUrl"`
+	Author      string       `json:"author"`
+	TotalTracks int          `json:"totalTracks"`
 }
 
 type TrackInfo struct {
